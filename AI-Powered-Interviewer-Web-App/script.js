@@ -1,5 +1,5 @@
 // API Configuration
-const API_KEY = window.GEMINI_API_KEY||'AIzaSyAhavVY1mCasxLmBDLvpfT7QY1otHXBnJc';
+const API_KEY = window.GEMINI_API_KEY;
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
 
 // DOM Elements
